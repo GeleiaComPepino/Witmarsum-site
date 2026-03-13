@@ -188,7 +188,6 @@ img {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    color:white;
 }
 
 .content a:hover {
@@ -272,6 +271,16 @@ img {
     flex-wrap: wrap;
 }
 
+.post-buttons a {
+    background: none !important;
+    padding: 0 !important;
+}
+
+.post-buttons a:hover {
+    background: none !important;
+    box-shadow: none !important;
+}
+
 .allposts button, .btn {
     display: inline-flex;
     align-items: center;
@@ -293,7 +302,6 @@ img {
 
 .allposts button:hover, .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(45, 106, 79, 0.4);
 }
 
 .allposts button:active, .btn:active {
